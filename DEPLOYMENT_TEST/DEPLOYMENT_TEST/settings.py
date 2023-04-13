@@ -125,7 +125,7 @@ STATICFILES_DIRS = [
 # HTTPS settings (make sure cookies are handled via HTTPS & All traffic redirected from HTTP to HTTPS)
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
-SECURE_SSL_REDIRECT = True
+SECURE_SSL_REDIRECT = False
 
 # HSTS settings (adds information to the header that says: Browsers can't connect to our webapp with an unsecure connection (HTTP))
 SECURE_HSTS_SECONDS = 31536000 # 1 year
